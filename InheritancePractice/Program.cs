@@ -20,6 +20,12 @@ namespace InheritancePractice
             firstAuto.Color = "silver";
             Console.WriteLine("Automobile {0} :", firstAuto.GetDistanceTraveled());
 
+            Airplane firstAircraft = new Airplane(2, 1000, "red", 600d);
+            firstAircraft.Move();
+            firstAircraft.Move();
+            Console.WriteLine("Airplane: {0} ", firstAircraft.GetDistanceTraveled());
+
+
         }
     }
 }
