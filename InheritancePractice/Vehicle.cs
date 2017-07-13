@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//Child class
-//Parent class == Program
+//Parent class
+//Children == Boat, Airplane
 
 namespace InheritancePractice
 {
@@ -46,7 +46,7 @@ namespace InheritancePractice
             distanceTraveled = 0;
         }
 
-        public virtual void Move()
+        public virtual void Move()// Virtual allow children class to edit the method to be inherited
         {
             distanceTraveled += movementSpeed;
         }
